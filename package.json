@@ -1,0 +1,58 @@
+{
+  "name": "node-seed",
+  "version": "0.0.14",
+  "description": "A skeleton for a typical NodeJS application",
+  "keywords": [
+    "node project",
+    "nodejs project",
+    "node seed",
+    "eslint",
+    "mocha",
+    "istanbul",
+    "code coverage",
+    "gulp",
+    "pre-commit",
+    "es6",
+    "babel"
+  ],
+  "main": "",
+  "scripts": {
+    "pre-commit": "./node_modules/.bin/gulp pre-commit"
+  },
+  "pre-commit": [
+    "pre-commit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hwndept/node-seed.git"
+  },
+  "author": "Nikolay Shatalov <hwndept@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwndept/node-seed/issues"
+  },
+  "homepage": "https://github.com/hwndept/node-seed",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-help": "^1.6.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-jsdoc3": "^0.3.0",
+    "gulp-mocha": "^2.2.0",
+    "isparta": "^3.0.3",
+    "merge-stream": "^1.0.1",
+    "pre-commit": "^1.1.3",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nconf": "^0.8.4",
+    "nconf-yaml": "^1.0.2",
+    "pg": "^7.6.0",
+    "sequelize": "^4.41.0",
+    "body-parser": "latest"
+  }
+}
